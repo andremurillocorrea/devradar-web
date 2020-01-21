@@ -33,7 +33,7 @@ function App() {
     <div id="app">
       <aside>
         <strong>Cadastrar</strong>
-        <DevForm onSubimit={handleAddDev} />
+        <DevForm onSubmit={handleAddDev} />
       </aside>
 
       <main>
